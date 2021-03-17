@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="content.css">
+
+
+<title>Novels</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="logo"><a href="index.html" style="text-decoration: none; color: white;"><h1>BOOKWORM</h1></a></div>
+        <nav class="navbar-links">
+            <ul>
+                <li><a href="novels.html">Novels</a></li>
+                <li><a href="child_books.html">Childrens Books</a></li>
+                <li><a href="comic.html">Comics</a></li>
+                <li><a href="mangas.html">Mangas</a></li>
+                <li><a href="webtoons.html">Webtoons</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main class="bg-img">NOVELS</main>
+        <div id="bar">
+            <button class="button" style="float: left;">Filter</button>
+            <button class="modal-btn" style="float: right;">Click for a Random pick</button> <!--removed onclick for every page-->
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h2>Randomly Selected Book</h2>
+                <div id="randombook"> </div>
+                <span class="modal-close">X</span>
+            </div>
+        </div>
+
+        <!--Moved first script to bottom of page to avoid null element errors-->     
+        <!--Deleted second script block as it seemed to be mainly depricated elements-->   
+
+        <div id="content1"><button class="button" style="float: right;" onclick="addFav(0)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71KCEyS52yL.jpg" alt="Above the Thunder"><br /><br />Above the Thunder</div>
+        <div id="content2">
+            <button class="button" style="float: right;" onclick="addFav(1)">&#11088</button>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513217486l/266592._SY475_.jpg" alt="Battle Royale"><br /><br />Battle Royale</div>
+        <div id="content3">
+            <button class="button" style="float: right;" onclick="addFav(2)">&#11088</button>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/A_Case_of_Two_Cities.jpg/220px-A_Case_of_Two_Cities.jpg" alt="A Case of Two Cities"><br /><br />A Case of Two Cities</div>
+        <div id="content4">
+            <button class="button" style="float: right;" onclick="addFav(3)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51Ac8B0PKdL._SX342_SY445_QL70_ML2_.jpg" alt="A Death of No Importance"><br /><br />A Death of No Importance</div>
+        <div id="content5">
+            <button class="button" style="float: right;" onclick="addFav(4)">&#11088</button>
+            <img src="https://m.media-amazon.com/images/I/519iqsuPh5L.jpg" alt="An Economist Gets Lunch"><br /><br />An Economist Gets Lunch</div>
+        <div id="content6">
+            <button class="button" style="float: right;" onclick="addFav(5)">&#11088</button>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439522483l/20233._SY475_.jpg" alt="A False Mirror"><br /><br />A False Mirror</div>
+        <div id="content7">
+            <button class="button" style="float: right;" onclick="addFav(6)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/A1fs-ErenkL.jpg" alt="A Gentleman in Moscow"><br /><br />A Gentleman in Moscow</div>
+        <div id="content8">
+            <button class="button" style="float: right;" onclick="addFav(7)">&#11088</button>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319037274l/34501.jpg" alt="A Hat Full of Sky"><br /><br />A Hat Full of Sky</div>
+        
+        <footer>All images are borrowed from google I take no credit for any of them. This is a sample site made for educational purposes</footer>
+    </div>
+
+
+    <script>
+        var modalBtn = document.querySelector('.modal-btn');
+        var modalBg = document.querySelector('.modal-bg');
+        var modalClose = document.querySelector('.modal-close');
+
+        modalBtn.addEventListener('click', function() {
+            modalBg.classList.add('bg-active');
+            var random = Math.floor(Math.random() * books.length);
+            var randomBook = books[random];
+
+            document.getElementById("randombook").innerHTML = randomBook;
+        })
+        modalClose.addEventListener('click', function() {
+            modalBg.classList.remove('bg-active');
+        })
+        
+        const books = ["Above the Thunder", "Battle Royale", "A Case of Two Cities", "A Death of No Importance", "An Economist Gets Lunch", "A False Mirror", "A Gentleman in Moscow", "A Hat Full of Sky"];
+
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        function addFav(bookNum) {
+            localStorage.setItem(bookNum,books[bookNum]); //changes on each page: [bookNum-10], [bookNum-20], etc
+            window.alert("Added to favorites!");
+        }
+        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    </script>
+</body>
+</html>

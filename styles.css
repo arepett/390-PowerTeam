@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.8fr 0.2fr;
+    grid-template-areas: 
+        "logo nav"
+        "main main"
+        "footer footer";
+}
+
+#logo {
+    background-color: #8a584c;
+    grid-area: logo;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+nav {
+    background-color: #8a584c;
+    grid-area: nav;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    color: #fff;
+    padding: 1.5rem;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover {
+    background-color: #f5eacf;
+    color: #000;
+    transition: 0.5s;
+}
+
+main{
+    background-color: #ceb793;
+    grid-area: main;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 3em;
+    color: #fff;
+}
+
+.p_style {
+    font-size: 1.5rem;
+}
+
+.bg-img {
+    background-image: url(http://trumpwallpapers.com/wp-content/uploads/Book-Wallpaper-11-1600-x-900.jpg);
+    opacity: 80%;
+    background-size: cover;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4f583d;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    background-color: #8a584c;
+    grid-area: footer;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}

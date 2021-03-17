@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="content.css">
+
+
+<title>Childrens Books</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="logo"><a href="index.html" style="text-decoration: none; color: white;"><h1>BOOKWORM</h1></a></div>
+        <nav class="navbar-links">
+            <ul>
+                <li><a href="novels.html">Novels</a></li>
+                <li><a href="child_books.html">Childrens Books</a></li>
+                <li><a href="comic.html">Comics</a></li>
+                <li><a href="mangas.html">Mangas</a></li>
+                <li><a href="webtoons.html">Webtoons</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main class="bg-img">CHILDREN'S BOOKS</main>
+        <div id="bar">
+            <button class="button" style="float: left;">Filter</button>
+            <button class="modal-btn" style="float: right;" onclick="randomBookFunction()">Click for a Random pick</button>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h2>Randomly Selected Book</h2>
+                <div id="randombook"> </div>
+                <span class="modal-close">X</span>
+            </div>
+        </div>
+
+        <!--On every subsequent page, values in 'onclick="addFav(#)"'' will be incremented by 10-->
+
+        <div id="content1">  <!-- + 10 -->
+            <button class="button" style="float: right;" onclick="addFav(10)">&#11088</button>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345696603l/7825557.jpg" alt="A Tale of Dark and Grimm"><br /><br />A Tale of Dark and Grimm</div>
+        <div id="content2">
+            <button class="button" style="float: right;" onclick="addFav(11)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81eOLIzxqPL.jpg" alt="BabyMouse Queen of the World"><br /><br />Babymouse #1: Queen of the World</div>
+        <div id="content3">
+            <button class="button" style="float: right;" onclick="addFav(12)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81BIM03zLxL.jpg" alt="Calendar Mysteries January Joker"><br /><br />Calendar Mysteries #1: January Joker</div>
+        <div id="content4">
+            <button class="button" style="float: right;" onclick="addFav(13)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61IfvaLNloL.jpg" alt="D.W. Flips"><br /><br />D.W. - Flips</div>
+        <div id="content5">
+            <button class="button" style="float: right;" onclick="addFav(14)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51Pb+wlmqcL._SX340_BO1,204,203,200_.jpg" alt="Eerie Elementary The School is alive"><br /><br />Eerie Elementary #1: The School is alive</div>
+        <div id="content6">
+            <button class="button" style="float: right;" onclick="addFav(15)">&#11088</button>
+            <img src="https://m.media-amazon.com/images/I/51o792WLdJL.jpg" alt="Fablehaven"><br /><br />Fablehaven</div>
+        <div id="content7">
+            <button class="button" style="float: right;" onclick="addFav(16)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81akt7nbbCL.jpg" alt="Galactic Hot Dogs #1: Cosmoe's Wiener Getaway"><br /><br />Galactic Hot Dogs #1: Cosmoe's Wiener Getaway</div>
+        <div id="content8">
+            <button class="button" style="float: right;" onclick="addFav(17)">&#11088</button>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71GCD2xskdL.jpg" alt="Haggis and Tank Unleashed #1: All Paws on Deck"><br /><br />Haggis and Tank Unleashed #1: All Paws on Deck</div>
+        <footer>All images are borrowed from google I take no credit for any of them. This is a sample site made for educational purposes</footer>
+    </div>
+
+    <script>
+        var modalBtn = document.querySelector('.modal-btn');
+        var modalBg = document.querySelector('.modal-bg');
+        var modalClose = document.querySelector('.modal-close');
+
+        modalBtn.addEventListener('click', function() {
+            modalBg.classList.add('bg-active');
+            var random = Math.floor(Math.random() * books.length);
+            var randomBook = books[random];
+
+            document.getElementById("randombook").innerHTML = randomBook;
+        })
+        modalClose.addEventListener('click', function() {
+            modalBg.classList.remove('bg-active');
+        })
+
+        const books = ["A Tale of Dark and Grimm", "Babymouse #1: Queen of the World", "Calendar Mysteries #1: January Joker", "D.W. - Flips", "Eerie Elementary #1: The School is alive", "Fablehaven", "Galactic Hot Dogs #1: Cosmoe's Wiener Getaway", "Haggis and Tank Unleashed #1: All Paws on Deck"];
+
+        //============================================================================================================
+        function addFav(bookNum) {
+            localStorage.setItem(bookNum,books[bookNum-10]);  //Subtraction will also increment by 10 each page
+            window.alert("Added to favorites!");
+        }
+        //============================================================================================================
+    </script>
+
+</body>
+</html>

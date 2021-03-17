@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #47583d;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.15fr 0.1fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: 
+        "logo logo nav nav"
+        "main main main main"
+        "bar bar bar bar"
+        "content1 content2 content3 content4"
+        "content5 content6 content7 content8"
+        "footer footer footer footer";
+}
+
+
+#logo {
+    background-color: #8a584c;
+    grid-area: logo;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+nav {
+    background-color: #8a584c;
+    grid-area: nav;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    color: #fff;
+    padding: 1.5rem;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-links li a:hover {
+    background-color: #f5eacf;
+    color: #000;
+    transition: 0.5s;
+}
+
+main{
+    background-color: #ceb793;
+    grid-area: main;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.bg-img {
+    background-image: url(https://wallpaperaccess.com/full/124383.jpg);
+    background-size: cover;
+    opacity: 70%;
+}
+
+#bar {
+    background-color: #47583d;
+    grid-area: bar;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #23271b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#content1 {
+    background-color: #85865f;
+    grid-area: content1;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content2 {
+    background-color: #85865f;
+    grid-area: content2;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content3 {
+    background-color: #85865f;
+    grid-area: content3;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content4 {
+    background-color: #85865f;
+    grid-area: content4;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content5 {
+    background-color: #85865f;
+    grid-area: content5;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content6 {
+    background-color: #85865f;
+    grid-area: content6;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content7 {
+    background-color: #85865f;
+    grid-area: content7;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+#content8 {
+    background-color: #85865f;
+    grid-area: content8;
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+
+img {
+    width: auto;
+    height: 150px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: #8a584c;
+    grid-area: footer;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal {
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    width: 25%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.modal-btn {
+    margin: 10px;
+    padding: 10px;
+    background-color: #23271b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#randombook {
+    padding-bottom: 25px;
+}

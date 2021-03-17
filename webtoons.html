@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="content.css">
+
+
+<title>Webtoons</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="logo"><a href="index.html" style="text-decoration: none; color: white;"><h1>BOOKWORM</h1></a></div>
+        <nav class="navbar-links">
+            <ul>
+                <li><a href="novels.html">Novels</a></li>
+                <li><a href="child_books.html">Childrens Books</a></li>
+                <li><a href="comic.html">Comics</a></li>
+                <li><a href="mangas.html">Mangas</a></li>
+                <li><a href="webtoons.html">Webtoons</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main class="bg-img">WEBTOONS / MANHWAS</main>
+        <div id="bar">
+            <button class="button" style="float: left;">Filter</button>
+            <button class="modal-btn" style="float: right;">Click for a Random pick</button>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h2>Randomly Selected Book</h2>
+                <div id="randombook"> </div>
+                <span class="modal-close">X</span>
+            </div>
+        </div>
+
+
+        <div id="content1"> <!-- + 40 -->
+            <button class="button" style="float: right;" onclick="addFav(40)">&#11088</button>
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532192488l/40892846._SX318_.jpg" alt="Always Human"><br /><br />Always Human</div>
+        <div id="content2">
+            <button class="button" style="float: right;" onclick="addFav(41)">&#11088</button>
+            <img src="https://www.anime-planet.com/images/manga/covers/back-to-you-44743.jpg" alt="Back to You"><br /><br />Back to You</div>
+        <div id="content3">
+            <button class="button" style="float: right;" onclick="addFav(42)">&#11088</button>
+            <img src="https://i.pinimg.com/originals/f7/58/b3/f758b300a8f2fcd3e00daebabab44499.jpg" alt="Cheese in the Trap"><br /><br />Cheese in the Trap</div>
+        <div id="content4">
+            <button class="button" style="float: right;" onclick="addFav(43)">&#11088</button>
+            <img src="https://xcdn-000.animemark.com/acg_covers/W300/a2/06/a20604c72c5c8c8f06b5f2d0896ccd94c12c664f_175213_300_450.png" alt="Dead Days"><br /><br />Dead Days</div>
+        <div id="content5">
+            <button class="button" style="float: right;" onclick="addFav(44)">&#11088</button>
+            <img src="https://mangarawr.com/wp-content/uploads/2020/08/Eleceed-title.jpeg" alt="Eleceed"><br /><br />Eleceed</div>
+        <div id="content6">
+            <button class="button" style="float: right;" onclick="addFav(45)">&#11088</button>
+            <img src="https://static.mangajar.com/posters/765/uPisymAZUUG9zdhsd27y6BbT8OmDKYz02TxUYJ6o.jpg" alt="Fluttering Feelings"><br /><br />Fluttering Feelings</div>
+        <div id="content7">
+            <button class="button" style="float: right;" onclick="addFav(46)">&#11088</button>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/The_God_of_High_School_Volume_1_Cover.jpg/220px-The_God_of_High_School_Volume_1_Cover.jpg" alt="The God of High School"><br /><br />The God of High School</div>
+        <div id="content8">
+            <button class="button" style="float: right;" onclick="addFav(47)">&#11088</button>
+            <img src="https://static.tvtropes.org/pmwiki/pub/images/hookytropes.jpg" alt="Hooky"><br /><br />Hooky</div>
+        <footer>All images are borrowed from google I take no credit for any of them. This is a sample site made for educational purposes</footer>
+    </div>
+
+    <script>
+        var modalBtn = document.querySelector('.modal-btn');
+        var modalBg = document.querySelector('.modal-bg');
+        var modalClose = document.querySelector('.modal-close');
+
+        modalBtn.addEventListener('click', function() {
+            modalBg.classList.add('bg-active');
+            var random = Math.floor(Math.random() * books.length);
+            var randomBook = books[random];
+
+            document.getElementById("randombook").innerHTML = randomBook;
+        })
+        modalClose.addEventListener('click', function() {
+            modalBg.classList.remove('bg-active');
+        })
+
+        const books = ["Always Human", "Back to You", "Cheese in the Trap", "Dead Days", "Eleceed", "Fluttering Feelings", "The God of High School", "Hooky"];
+
+        //======================================================================================================================
+        function addFav(bookNum) {
+            localStorage.setItem(bookNum,books[bookNum-40]);
+            window.alert("Added to favorites!");
+        }
+        //======================================================================================================================
+    </script>
+</body>
+</html>

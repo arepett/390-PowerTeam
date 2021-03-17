@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="content.css">
+
+
+<title>Childrens Books</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="logo"><a href="index.html" style="text-decoration: none; color: white;"><h1>BOOKWORM</h1></a></div>
+        <nav class="navbar-links">
+            <ul>
+                <li><a href="novels.html">Novels</a></li>
+                <li><a href="child_books.html">Childrens Books</a></li>
+                <li><a href="comic.html">Comics</a></li>
+                <li><a href="mangas.html">Mangas</a></li>
+                <li><a href="webtoons.html">Webtoons</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <main class="bg-img">COMICS</main>
+        <div id="bar">
+            <button class="button" style="float: left;">Filter</button>
+            <button class="modal-btn" style="float: right;">Click for a Random pick</button>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h2>Randomly Selected Book</h2>
+                <div id="randombook"> </div>
+                <span class="modal-close">X</span>
+            </div>
+        </div>
+
+
+        <div id="content1"> <!-- + 20 -->
+            <button class="button" style="float: right;" onclick="addFav(20)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1498238.jpg" alt="A Bug's Gift (1991) #1"><br /><br />A Bug's Gift (1991) #1</div>
+        <div id="content2">
+            <button class="button" style="float: right;" onclick="addFav(21)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1108957.jpg" alt="B1N4RY (2004) #1A"><br /><br />B1N4RY (2004) #1A</div>
+        <div id="content3">
+            <button class="button" style="float: right;" onclick="addFav(22)">&#11088</button>
+            <img src="https://www.nostalgiazone.com/prodimages/large/CaptainAmerica(1968)0100(C)Marv-1.jpg" alt="Captian America (1st Series - 1968)"><br /><br />Captian America (1st Series - 1968)</div>
+        <div id="content4">
+            <button class="button" style="float: right;" onclick="addFav(23)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1147107.jpg" alt="Daken Dark Wolverine (2010) #1A"><br /><br />Daken Dark Wolverine (2010) #1A</div>
+        <div id="content5">
+            <button class="button" style="float: right;" onclick="addFav(24)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/2794916.jpg" alt="E Is for Extinction (2015) #1A"><br /><br />E Is for Extinction (2015) #1A</div>
+        <div id="content6">
+            <button class="button" style="float: right;" onclick="addFav(25)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1074447.jpg" alt="Fables (2002) #1A"><br /><br />Fables (2002) #1A</div>
+        <div id="content7">
+            <button class="button" style="float: right;" onclick="addFav(26)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/5440713.jpg" alt="G.O.T.H. (1995 Verotik) #1"><br /><br />G.O.T.H. (1995 Verotik) #1</div>
+        <div id="content8">
+            <button class="button" style="float: right;" onclick="addFav(27)">&#11088</button>
+            <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/587991.jpg" alt="Hack Slash (2004) #1"><br /><br />Hack Slash (2004) #1</div>
+        <footer>All images are borrowed from google I take no credit for any of them. This is a sample site made for educational purposes</footer>
+    </div>
+
+    <script>
+        var modalBtn = document.querySelector('.modal-btn');
+        var modalBg = document.querySelector('.modal-bg');
+        var modalClose = document.querySelector('.modal-close');
+
+        modalBtn.addEventListener('click', function() {
+            modalBg.classList.add('bg-active');
+            var random = Math.floor(Math.random() * books.length);
+            var randomBook = books[random];
+
+            document.getElementById("randombook").innerHTML = randomBook;
+        })
+        modalClose.addEventListener('click', function() {
+            modalBg.classList.remove('bg-active');
+        })
+
+        const books = ["A Bug's Gift (1991) #1", "B1N4RY (2004) #1A", "Captian America (1st Series - 1968)", "Daken Dark Wolverine (2010) #1A", "E Is for Extinction (2015) #1A", "Fables (2002) #1A", "G.O.T.H. (1995 Verotik) #1", "Hack Slash (2004) #1"];
+
+        //==========================================================================================================================
+        function addFav(bookNum) {
+            localStorage.setItem(bookNum,books[bookNum-20]);
+            window.alert("Added to favorites!");
+        }
+        //=========================================================================================================================
+    </script>
+</body>
+</html>
