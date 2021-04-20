@@ -1,0 +1,16 @@
+{
+  "novels": [
+    {
+      "title" : "Above the Thunder",
+      "desc" : "A wary, middle-aged widow numbed by loss and disappointment. A preternaturally intelligent little girl who eavesdrops on the dead. A charming, sybaritic gay man torn between his love for his partner and the anarchy of his desires.These are the charged poles of Ren?e Manfredi’s gorgeously written first novel, a book that explores the currents of tenderness, responsibility and chance that turn strangers into a family.",
+      "img_url" : "https://images-na.ssl-images-amazon.com/images/I/71KCEyS52yL.jpg",
+      "img_alt" : "Above the Thunder book cover"
+    },
+     {
+      "title" : "Battle Royale",
+      "desc" : "Koushun Takami's notorious high-octane thriller is based on an irresistible premise: a class of junior high school students is taken to a deserted island where, as part of a ruthless authoritarian program, they are provided arms and forced to kill one another until only one survivor is left standing. Criticized as violent exploitation when first published in Japan - where it then proceeded to become a runaway bestseller - Battle Royale is a Lord of the Flies for the 21st century, a potent allegory of what it means to be young and (barely) alive in a dog-eat-dog world. Made into a controversial hit movie of the same name, Battle Royale is already a contemporary Japanese pulp classic, now available for the first time in the English language.",
+      "img_url" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513217486l/266592._SY475_.jpg",
+      "img_alt" : "Battle Royal book cover"
+    }
+  ]
+}
