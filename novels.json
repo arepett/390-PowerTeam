@@ -1,16 +1,58 @@
-{
-  "novels": [
+[
     {
       "title" : "Above the Thunder",
+      "author" : "Renée Manfredi",
       "desc" : "A wary, middle-aged widow numbed by loss and disappointment. A preternaturally intelligent little girl who eavesdrops on the dead. A charming, sybaritic gay man torn between his love for his partner and the anarchy of his desires.These are the charged poles of Ren?e Manfredi’s gorgeously written first novel, a book that explores the currents of tenderness, responsibility and chance that turn strangers into a family.",
       "img_url" : "https://images-na.ssl-images-amazon.com/images/I/71KCEyS52yL.jpg",
       "img_alt" : "Above the Thunder book cover"
     },
-     {
+    {
       "title" : "Battle Royale",
+      "author" : "Koushun Takami",
       "desc" : "Koushun Takami's notorious high-octane thriller is based on an irresistible premise: a class of junior high school students is taken to a deserted island where, as part of a ruthless authoritarian program, they are provided arms and forced to kill one another until only one survivor is left standing. Criticized as violent exploitation when first published in Japan - where it then proceeded to become a runaway bestseller - Battle Royale is a Lord of the Flies for the 21st century, a potent allegory of what it means to be young and (barely) alive in a dog-eat-dog world. Made into a controversial hit movie of the same name, Battle Royale is already a contemporary Japanese pulp classic, now available for the first time in the English language.",
       "img_url" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1513217486l/266592._SY475_.jpg",
       "img_alt" : "Battle Royal book cover"
+    },
+    {
+      "title" : "A Case of Two Cities",
+      "author" : "Qiu Xiaolong",
+      "desc" : "Inspector Chen Cao of the Shanghai Police Bureau is summoned by an official of the party to take the lead in a corruption investigation—one where the principle figure and his family have long since fled to the United States and beyond the reach of the Chinese government. But he left behind the organization and his partners-in-crime, and Inspector Chen is charged to uncover those responsible and act as necessary to end the corruption ring. In a twisting case that takes him from Shanghai, all the way to the U.S., reuniting him with his previous cohort from the U.S. Marshall's service—Inspector Catherine Rhon.",
+      "img_url" : "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/A_Case_of_Two_Cities.jpg/220px-A_Case_of_Two_Cities.jpg",
+      "img_alt" : "A Case of Two Cities book cover"
+    },
+    {
+      "title" : "A Death of No Importance",
+      "author" : "Mariah Fredericks",
+      "desc" : "New York City, 1910. Invisible until she’s needed, Jane Prescott has perfected the art of serving as a ladies’ maid to the city’s upper echelons. When she takes up a position with the Benchley family, dismissed by the city’s elite as “new money”, Jane realizes that while she may not have financial privilege, she has a power they do not—she understands the rules of high society. The Benchleys cause further outrage when their daughter Charlotte becomes engaged to notorious playboy Norrie, the son of the eminent Newsome family. But when Norrie is found murdered at a party, Jane discovers she is uniquely positioned—she’s a woman no one sees, but who witnesses everything; who possesses no social power, but that of fierce intellect—and therefore has the tools to solve his murder. There are many with grudges to bear: from the family Norrie was supposed to marry into, to the survivors of a tragic accident in a mine owned by the Newsomes, to the rising anarchists who are sick of those born into wealth getting away with anything they want. Jane also knows that in both high society and the city’s underbelly, morals can become cheap in the wrong hands: scandal and violence simmer just beneath the surface—and can break out at any time.",
+      "img_url" : "https://images-na.ssl-images-amazon.com/images/I/51Ac8B0PKdL._SX342_SY445_QL70_ML2_.jpg",
+      "img_alt" : "A Death of No Importance book cover"
+    },
+    {
+      "title" : "An Economist Gets Lunch",
+      "author" : "Tyler Cowen",
+      "desc" : "A leading economist, “who may very well turn out to be this decade's Thomas Friedman” (Wall Street Journal), illuminates the state of American food today. Tyler Cowen, one of the most influential economists of the last decade, wants you to know that just about everything you've heard about how to get good food is wrong. Drawing on a provocative range of examples from around the globe, Cowen reveals why airplane food is bad, but airport food is improving, why restaurants full of happy, attractive people usually serve mediocre meals, and why American food has improved as Americans drink more wine. At a time when obesity is on the rise and forty-four million Americans receive food stamps, An Economist Gets Lunch will revolutionize the way we eat today—and show us how we're going to feed the world tomorrow.",
+      "img_url" : "https://m.media-amazon.com/images/I/519iqsuPh5L.jpg",
+      "img_alt" : "An Economist Gets Lunch book cover"
+    },
+    {
+      "title" : "A False Mirror",
+      "author" : "Charles Todd",
+      "desc" : "The remarkable Charles Todd has created one of the most unforgettable characters in mystery and crime fiction: Inspector Ian Rutledge, shell-shocked veteran of “the Great War.” A False Mirror is one of Todd’s most powerful novels, plunging his tormented protagonist into the center of a brutal crime that painfully echoes events in Rutledge’s own past. Poignant, evocative, and continually surprising, A False Mirror is further proof that Charles Todd is well deserving of the critical acclaim the Rutledge novels have earned; a New York Times bestselling author who belongs among the acknowledged masters of the genre, including P. D. James, Elizabeth George, Ruth Rendell, and Jacqueline Winspear.",
+      "img_url" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439522483l/20233._SY475_.jpg",
+      "img_alt" : "A False Mirror book cover"
+    },
+    {
+      "title" : "A Gentleman in Moscow",
+      "author" : "Amor Towles",
+      "desc" : "In 1922, Count Alexander Rostov is deemed an unrepentant aristocrat by a Bolshevik tribunal, and is sentenced to house arrest in the Metropol, a grand hotel across the street from the Kremlin. Rostov, an indomitable man of erudition and wit, has never worked a day in his life, and must now live in an attic room while some of the most tumultuous decades in Russian history are unfolding outside the hotel’s doors. Unexpectedly, his reduced circumstances provide him entry into a much larger world of emotional discovery.",
+      "img_url" : "https://images-na.ssl-images-amazon.com/images/I/A1fs-ErenkL.jpg",
+      "img_alt" : "A Gentleman in Moscow book cover"
+    },
+    {
+      "title" : "A Hat Full of Sky",
+      "author" : "Terry Pratchett",
+      "desc" : "The second in a series of Discworld novels starring the young witch Tiffany Aching. Something is coming after Tiffany... Tiffany Aching is ready to begin her apprenticeship in magic. She expects spells and magic—not chores and ill-tempered nanny goats! Surely there must be more to witchcraft than this! What Tiffany doesn't know is that an insidious, disembodied creature is pursuing her. This time, neither Mistress Weatherwax (the greatest witch in the world) nor the fierce, six-inch-high Wee Free Men can protect her. In the end, it will take all of Tiffany's inner strength to save herself... if it can be done at all.",
+      "img_url" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1319037274l/34501.jpg",
+      "img_alt" : "A Hat Full of Sky book cover"
     }
-  ]
-}
+]
