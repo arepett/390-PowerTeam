@@ -1,0 +1,10 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+ static_files: bookworm-angular/index.html
+ upload: bookworm-angular/index.html
+- url: /
+static_dir: bookworm-angular
