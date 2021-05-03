@@ -4,55 +4,63 @@
     "author": "Yukito Ayatsuji",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/51+XrqDIufL._SX343_BO1,204,203,200_.jpg",
     "img_alt": "Another Volume 1 cover",
-    "link": "https://www.amazon.com/Another-manga-Yukito-Ayatsuji/dp/0316245917"
+    "link": "https://www.amazon.com/Another-manga-Yukito-Ayatsuji/dp/0316245917",
+    "tags": "horror, mystery"
   },
   {
     "title": "Bloom Into You Volume 1",
     "author": "Nakatani Nio",
     "img_url": "https://m.media-amazon.com/images/I/51txy4QOCYL.jpg",
     "img_alt": "Bloom Into You Volume 1 cover",
-    "link": "https://www.amazon.com/Bloom-into-You-Vol-1/dp/1626923531"
+    "link": "https://www.amazon.com/Bloom-into-You-Vol-1/dp/1626923531",
+    "tags": "romance"
   },
   {
     "title": "Case Closed Volume 1",
     "author": "Gosho Aoyama",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/81Z+VyLZYlL.jpg",
     "img_alt": "Case Closed Volume 1",
-    "link": "https://www.amazon.com/Case-Closed-Vol-Gosho-Aoyama/dp/1591163277"
+    "link": "https://www.amazon.com/Case-Closed-Vol-Gosho-Aoyama/dp/1591163277",
+    "tags": "mystery"
   },
   {
     "title": "Dragon Ball",
     "author": "Akira Toriyama",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/81-1jqVHePL.jpg",
     "img_alt": "Dragon Ball cover",
-    "link": "https://www.amazon.com/Dragon-Ball-Vol-Akira-Toriyama/dp/1569319200/ref=sr_1_4?dchild=1&keywords=dragon+ball+manga&qid=1618974768&sr=8-4"
+    "link": "https://www.amazon.com/Dragon-Ball-Vol-Akira-Toriyama/dp/1569319200/ref=sr_1_4?dchild=1&keywords=dragon+ball+manga&qid=1618974768&sr=8-4",
+    "tags": "action, adventure, fantasy"
   },
   {
     "title": "Erased Volume 1",
     "author": "Kei Sanbe",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/31O6m0NpCyL._SX346_BO1,204,203,200_.jpg",
     "img_alt": "Erased Volume 1 cover",
-    "link": "https://www.amazon.com/Erased-Vol-1-Kei-Sanbe/dp/031655331X"
+    "link": "https://www.amazon.com/Erased-Vol-1-Kei-Sanbe/dp/031655331X",
+    "tags": "horror, mystery"
   },
   {
     "title": "Fairy Tail Volume 1",
     "author": "Hiro Mashima",
     "img_url": "https://m.media-amazon.com/images/I/61ZbpcZckAL.jpg",
     "img_alt": "Fairy Tail Volume 1 cover",
-    "link": "https://www.amazon.com/Fairy-Tail-1/dp/1612622763"
+    "link": "https://www.amazon.com/Fairy-Tail-1/dp/1612622763",
+    "tags": "action, adventure, fantasy"
   },
   {
     "title": "Given Volume 1",
     "author": "Natsuki Kizu",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/818J9HInDSL.jpg",
     "img_alt": "Given Volume 1 cover",
-    "link": "https://www.amazon.com/Given-Vol-1-Natsuki-Kizu/dp/197471182X"
+    "link": "https://www.amazon.com/Given-Vol-1-Natsuki-Kizu/dp/197471182X",
+    "tags": "romance, drama"
   },
   {
     "title": "Haikyu Volume 1",
     "author": "Haruichi Furudate",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/8125DI58M+L.jpg",
     "img_alt": "Haikyu Volume 1 cover",
-    "link": "https://www.amazon.com/Haikyu-Vol-1-Haruichi-Furudate/dp/1421587661"
+    "link": "https://www.amazon.com/Haikyu-Vol-1-Haruichi-Furudate/dp/1421587661",
+    "tags": "slice of life, sport, humor"
   }
 ]
