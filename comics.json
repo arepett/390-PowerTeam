@@ -4,55 +4,63 @@
     "author": "Scott Deschaine",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1498238.jpg",
     "img_alt": "A Bug's Gift (1991) #1 comic cover",
-    "link": "https://www.amazon.com/bugs-gift-Discovery-comics/dp/1878181017"
+    "link": "https://www.amazon.com/bugs-gift-Discovery-comics/dp/1878181017",
+    "tags": "slice of life"
   },
   {
     "title": "B1N4RY (2004) #1A",
     "author": "Richard Emms & Jim Sutherns",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1108957.jpg",
     "img_alt": "B1N4RY (2004) #1 comic cover",
-    "link": "https://www.amazon.com/B1N4RY-1A-VF-comic-book/dp/B076611JN9"
+    "link": "https://www.amazon.com/B1N4RY-1A-VF-comic-book/dp/B076611JN9",
+    "tags": "superhero, action"
   },
   {
     "title": "Captian America (1st Series - 1968)",
     "author": "Marvel Comics",
     "img_url": "https://www.nostalgiazone.com/prodimages/large/CaptainAmerica(1968)0100(C)Marv-1.jpg",
     "img_alt": "Captian America (1st Series - 1968) comic cover",
-    "link": "https://www.amazon.com/Captain-America-1968-1st-426/dp/B005HWIEAE"
+    "link": "https://www.amazon.com/Captain-America-1968-1st-426/dp/B005HWIEAE",
+    "tags": "superhero, action"
   },
   {
     "title": "Daken Dark Wolverine (2010) #1A",
     "author": "Marjorie Liu $",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1147107.jpg",
     "img_alt": "Daken Dark Wolverine (2010) #1A comic cover",
-    "link": "https://www.marvel.com/comics/issue/30054/daken_dark_wolverine_2010_1"
+    "link": "https://www.marvel.com/comics/issue/30054/daken_dark_wolverine_2010_1",
+    "tags": "superhero, action"
   },
   {
     "title": "E Is for Extinction (2015) #1A",
     "author": "Chris Burnham",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/2794916.jpg",
     "img_alt": "E Is for Extinction (2015) #1A cover",
-    "link": "https://www.amazon.com/Extinction-1-Chris-Burnham-ebook/dp/B00ZQ3RLYY"
+    "link": "https://www.amazon.com/Extinction-1-Chris-Burnham-ebook/dp/B00ZQ3RLYY",
+    "tags": ""
   },
   {
     "title": "Fables (2002) #1A cover",
     "author": "Bill Willingham",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/1074447.jpg",
     "img_alt": "Fables (2002) #1A cover",
-    "link": "https://www.mycomicshop.com/search?TID=410911"
+    "link": "https://www.mycomicshop.com/search?TID=410911",
+    "tags": "superhero, action"
   },
   {
     "title": "G.O.T.H. (1995 Verotik) #1",
     "author": "Glenn Danzing & Liam Sharp",
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/81akt7nbbCL.jpg",
     "img_alt": "G.O.T.H. (1995 Verotik) #1 cover",
-    "link": "https://www.mycomicshop.com/search?TID=511431"
+    "link": "https://www.mycomicshop.com/search?TID=511431",
+    "tags": "action"
   },
   {
     "title": "Hack Slash (2004) #1",
     "author": "Tim Seeley & Stefano Caselli",
     "img_url": "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/587991.jpg",
     "img_alt": "Hack Slash (2004) #1 cover",
-    "link": "https://www.mycomicshop.com/search?TID=51152183"
+    "link": "https://www.mycomicshop.com/search?TID=51152183",
+    "tags": "horror, action"
   }
 ]
