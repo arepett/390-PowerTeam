@@ -124,5 +124,14 @@
     "img_alt": "Friday Night Lights book cover",
     "link": "https://www.amazon.com/Friday-Night-Lights-Town-Dream/dp/0060974060",
     "tags": "nonfiction, sport"
+  },
+  {
+    "title": "Da Vinci Code",
+    "author": "Dan Brown",
+    "desc": "While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter.",
+    "img_url": "https://images-na.ssl-images-amazon.com/images/I/91Q5dCjc2KL.jpg",
+    "img_alt": "The Da Vinci Code book cover",
+    "link": "https://www.amazon.com/Vinci-Code-Robert-Langdon/dp/0307474275",
+    "tags": "action, adventure, fiction, mystery"
   }
 ]
