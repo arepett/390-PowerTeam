@@ -97,5 +97,32 @@
     "img_alt": "Darkfire book cover",
     "link": "https://underrealm.net/product/darkfire-paperback/",
     "tags": "fantasy, fiction, adventure"
+  },
+  {
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "desc": "On November 15, 1959, in the small town of Holcomb, Kansas, four members of the Clutter family were savagely murdered by blasts from a shotgun held a few inches from their faces. There was no apparent motive for the crime, and there were almost no clues.",
+    "img_url": "https://images-na.ssl-images-amazon.com/images/I/61B3wTSzH8L.jpg",
+    "img_alt": "In Cold Blood book cover",
+    "link": "https://www.amazon.com/Cold-Blood-Truman-Capote/dp/0679745580",
+    "tags": "nonfiction"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "desc": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten.",
+    "img_url": "https://images-na.ssl-images-amazon.com/images/I/81yAo5ElQlL.jpg",
+    "img_alt": "Fault in Our Stars book cover",
+    "link": "https://www.amazon.com/Fault-Our-Stars-John-Green/dp/0525478817",
+    "tags": "romance, fiction"
+  },
+  {
+    "title": "Friday Night Lights: A Town, a Team, and a Dream",
+    "author": "Buzz Bissinger",
+    "desc": "A profile of the town of Odessa, Texas, and its high school football team--the Panthers, the high school team with the best winning record in Texas history--chronicles its dramatic 1988 season and focuses on the bitter struggle between sports and education",
+    "img_url": "https://images-na.ssl-images-amazon.com/images/I/517Ug5LZZFL._SX327_BO1,204,203,200_.jpg",
+    "img_alt": "Friday Night Lights book cover",
+    "link": "https://www.amazon.com/Friday-Night-Lights-Town-Dream/dp/0060974060",
+    "tags": "nonfiction, sport"
   }
 ]
